@@ -1,6 +1,6 @@
 @echo off
 ::App version
-set appv=0.1
+set appv=0.2
 ::Verify if T2 is has admin privileges and if not, prompt to restart with them
 net.exe session 1>NUL 2>NUL || (
 	title T2 - WARNING : Not admin
