@@ -191,7 +191,7 @@ echo.
 echo 1. Restart as admin
 echo 2. (^<-)
 choice /c 12 /n
-goto 3%errorlevel%
+goto 4%errorlevel%
 
 :41 Restart as admin
 powershell start -verb runas '%0'&exit/b
